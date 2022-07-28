@@ -4,7 +4,6 @@
   /* background-color: #ff000050; */
 }
 
-
 /* Carousel Dark Overlay */
 .dark:after {
   content:"";
@@ -32,6 +31,6 @@
   .feedback .carousel-control-prev, .feedback .carousel-control-next{
     display: none;
   }
-  
+
 }
 
