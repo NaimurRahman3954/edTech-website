@@ -17,11 +17,14 @@
   background:rgba(0,0,0,0.5);
 }
 
+/* Feedback Section */
 .w-87{
   width: 87%;
 }
  
 @media screen and (max-width: 1024px) {
+
+  /* Feedback Section */
   .w-87{
     width: 100%;
   }
@@ -29,10 +32,6 @@
   .feedback .carousel-control-prev, .feedback .carousel-control-next{
     display: none;
   }
-
-  /* .w-75{
-    width: 100% !important;
-  } */
   
 }
 
