@@ -16,8 +16,15 @@
    <header>
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg">
-         <div class="container-fluid mx-5 px-5 pt-4 d-flex justify-content-evenly">
-           <a class="navbar-brand fw-bold" href="#">Pro Edu</a>
+         <div class="container pt-4 px-5 d-flex justify-content-between">
+            <a class="navbar-brand fw-bold text-primary" href="#">Pro Edu</a>
+            
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
+            </button>
+
+            <!-- Collapsible content -->
             <div class="collapse navbar-collapse" id="navbarText">
                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                   <li class="nav-item px-3">
@@ -37,24 +44,24 @@
                   </li>
                </ul>
             </div>
-            <button type="button" class="btn btn-outline-primary">Register</button>
+            <button type="button" class="btn btn-outline-primary d-lg-block d-none">Register</button>
          </div>
       </nav>
    </header>
 
    <main>
       <!-- Hero Section -->
-      <section class="container my-4">
+      <section class="container my-4 px-5">
 
          <!-- carousel -->
-         <div id="carouselExampleCaptions" class="carousel slide mx-4" data-bs-ride="false">
+         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
 
-            <!-- Indicator Buttons -->
+            <!-- Indicator Buttons
             <div class="carousel-indicators">
                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+            </div> -->
 
             <!-- Carousel Items -->
             <div class="carousel-inner">
@@ -62,7 +69,7 @@
                   <div class="dark">
                      <img src="./images/cover/cover-2.jpg" class="d-block w-100" alt="...">
                   </div>
-                  <div class="carousel-caption d-none d-md-block mb-5">
+                  <div class="carousel-caption d-none d-md-block pb-5">
                      <h1>Get Started Digital Learning</h1>
                      <p class="mb-4">It is a long established fact that a reader will be distracted by <br>the readable content of a page when looking at its layout.</p>
                      <button type="button" class="btn btn-primary px-4">Get Started</button>
@@ -103,69 +110,69 @@
       </section>
 
       <!-- Courses Section -->
-      <section class="container mx-5 px-5 my-5">
+      <section class="container px-5 my-5">
          <h3 class="text-center pt-5 pb-3 mt-5">Discover Our Popular Courses</h3>
-         <p class="text-center pb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+         <p class="text-center pb-4 text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 
          <!-- Course Grid -->
          <div class="row g-3">
             <div class="col-lg-6 col-md-12">
-               <div class="d-flex border rounded-1">
+               <div class="d-flex flex-md-row flex-sm-column border rounded-1">
                   <img src="./images/course/course-1.png" class="ps-0" alt="...">
-                  <div class="card-body px-4 my-auto">
+                  <div class="card-body p-4 my-auto">
                      <h4 class="card-title pb-3">Fundamental Of UI/UX Design</h4>
                      <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                     <p class="text-primary fw-bold">Price : 20$</p>
+                     <p class="text-primary fw-bold m-0">Price : 20$</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-6 col-md-12">
-               <div class="d-flex border rounded-1">
+               <div class="d-flex flex-md-row flex-sm-column border rounded-1">
                   <img src="./images/course/course-2.png" class="ps-0" alt="...">
-                  <div class="card-body px-4 my-auto">
-                     <h4 class="card-title pb-3">Fundamental Of UI/UX Design</h4>
+                  <div class="card-body p-4 px-4 my-auto">
+                     <h4 class="card-title pb-3">Javascript Basic to advanced</h4>
                      <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                     <p class="text-primary fw-bold">Price : 20$</p>
+                     <p class="text-primary fw-bold m-0">Price : 20$</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-6 col-md-12">
-               <div class="d-flex border rounded-1">
+               <div class="d-flex flex-md-row flex-sm-column border rounded-1">
                   <img src="./images/course/course-3.png" class="ps-0" alt="...">
-                  <div class="card-body px-4 my-auto">
-                     <h4 class="card-title pb-3">Fundamental Of UI/UX Design</h4>
+                  <div class="card-body p-4 px-4 my-auto">
+                     <h4 class="card-title pb-3">Fullstack Web Development</h4>
                      <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                     <p class="text-primary fw-bold">Price : 20$</p>
+                     <p class="text-primary fw-bold m-0">Price : 20$</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-6 col-md-12">
-               <div class="d-flex border rounded-1">
+               <div class="d-flex flex-md-row flex-sm-column border rounded-1">
                   <img src="./images/course/course-4.png" class="ps-0" alt="...">
-                  <div class="card-body px-4 my-auto">
-                     <h4 class="card-title pb-3">Fundamental Of UI/UX Design</h4>
+                  <div class="card-body p-4 px-4 my-auto">
+                     <h4 class="card-title pb-3">Digital Marketing</h4>
                      <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                     <p class="text-primary fw-bold">Price : 20$</p>
+                     <p class="text-primary fw-bold m-0">Price : 20$</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-6 col-md-12">
-               <div class="d-flex border rounded-1">
+               <div class="d-flex flex-md-row flex-sm-column border rounded-1">
                   <img src="./images/course/course-5.png" class="ps-0" alt="...">
-                  <div class="card-body px-4 my-auto">
-                     <h4 class="card-title pb-3">Fundamental Of UI/UX Design</h4>
+                  <div class="card-body p-4 px-4 my-auto">
+                     <h4 class="card-title pb-3">Photography Basic Rules</h4>
                      <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                     <p class="text-primary fw-bold">Price : 20$</p>
+                     <p class="text-primary fw-bold m-0">Price : 20$</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-6 col-md-12">
-               <div class="d-flex border rounded-1">
+               <div class="d-flex flex-md-row flex-sm-column border rounded-1">
                   <img src="./images/course/course-6.png" class="ps-0" alt="...">
-                  <div class="card-body px-4 my-auto">
+                  <div class="card-body p-4 px-4 my-auto">
                      <h4 class="card-title pb-3">Fundamental Of UI/UX Design</h4>
                      <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                     <p class="text-primary fw-bold">Price : 20$</p>
+                     <p class="text-primary fw-bold m-0">Price : 20$</p>
                   </div>
                </div>
             </div>
@@ -178,7 +185,7 @@
       </section>
 
       <!-- Explore Section -->
-      <section class="container mx-5 px-5 my-5">
+      <section class="container px-5 px-lg-5 px-md-0 my-5">
          <div class="card my-5 py-5 border-0">
             <div class="row g-0 bg-light">
                <div class="col-md-6">
@@ -186,25 +193,27 @@
                </div>
                <div class="col-md-6">
                   <div class="card-body h-100 px-5 d-flex flex-column justify-content-center">
-                     <h3 class="card-title mb-5">Explore The e-learning Institute</h3>
-                     <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
-                     <p class="card-text">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
-                     <div class="d-flex justify-content-between mt-5">
+                     <h3 class="card-title py-lg-5 py-5 py-md-0">Explore The e-learning Institute</h3>
+                     <p class="card-text text-muted ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable.
+                     </p>
+                     <br>
+                     <p class="d-none d-lg-block d-xl-block text-muted"> Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined. </p>
+                     <div class="d-flex flex-md-wrap justify-content-between py-3 py-lg-5 p-md-0">
                         <div>
                            <h3>3.2K+</h3>
-                           <p>Online Courses</p>
+                           <p class="text-muted">Online Courses</p>
                         </div>
                         <div>
                            <h3>600+</h3>
-                           <p>Expert Members</p>
+                           <p class="text-muted">Expert Members</p>
                         </div>
                         <div>
                            <h3>1K+</h3>
-                           <p>Rating & Reviews</p>
+                           <p class="text-muted">Rating & Reviews</p>
                         </div>
                      </div>
                      <div>
-                        <button type="button" class="btn btn-primary my-3">Read More</button>
+                        <button type="button" class="btn btn-primary my-3 my-md-0">Read More</button>
                      </div>
                   </div>
                </div>
@@ -213,38 +222,41 @@
       </section>
 
       <!-- Registration Section -->
-      <section class="container mx-5 px-5 my-5">
+      <section class="container px-5 my-5">
          <div class="card my-5 py-5 border-0 rounded-1">
             <div class="row g-0 bg-primary text-white rounded-1 px-5 py-3">
-               <div class="col-md-6 p-5">
-                  <h3 class="mb-4">Ready to join?</h3>
+               <div class="col-lg-8 col-12 p-5 px-md-0 px-sm-0 text-lg-start text-center">
+                  <h3 class="mb-4 fw-bold">Ready to join?</h3>
                   <p class="fw-light mb-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                </div>
 
-               <!-- Modal issue ❌❌❌ -->
                <!-- Button trigger modal -->
-               <div class="col-md-6 p-5 my-auto text-lg-end">
-                  <button type="button" class="btn text-primary bg-white" data-toggle="modal" data-target="#exampleModalCenter">Register Now</button>
+               <div class="col-lg-4 col-12 px-5 mb-5 my-lg-auto text-lg-end text-center">
+                  <button type="button" class="btn text-primary bg-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
                </div>
 
                <!-- Modal -->
-               <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
+               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h5 class="modal-title text-black" id="exampleModalLabel">Learn and grow with <span class="fw-bold text-primary">Pro Edu</span></h5>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                           <form>
+                              <div class="mb-3">
+                                 <label for="exampleInputEmail1" class="form-label text-dark">Email address</label>
+                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" autocomplete="email">
+                                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                              </div>
+                           </form>
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                           <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
                      </div>
-                     <div class="modal-body">
-                        ...
-                     </div>
-                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                     </div>
-                  </div>
                   </div>
                </div>
             </div>
@@ -252,12 +264,12 @@
       </section>
 
       <!-- Success Section -->
-      <section class="container mx-5 px-5 my-5">
+      <section class="container px-5 my-5">
          <h3 class="pt-5 pb-3 mt-5">Meet Our Successful Students</h3>
          <p class="pb-4 text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 
          <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
+            <div class="col-lg-3 col-md-6">
                <div class="card h-100">
                   <img src="./images/student/student-1.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -266,7 +278,7 @@
                   </div>
                </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3 col-md-6">
                <div class="card h-100">
                   <img src="./images/student/student-2.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -275,7 +287,7 @@
                   </div>
                </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3 col-md-6">
                <div class="card h-100">
                   <img src="./images/student/student-3.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -284,7 +296,7 @@
                   </div>
                </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3 col-md-6">
                <div class="card h-100">
                   <img src="./images/student/student-4.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -300,14 +312,14 @@
       </section>
 
       <!-- Feedback Section -->
-      <section class="container mx-5 px-5 my-5">
+      <section class="container px-5 my-5 feedback">
          <h3 class="text-center pt-5 pb-3 mt-5">Some Students Feedback</h3>
          <p class="text-center pb-4 text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-               <div class="carousel-item active d-flex justify-content-center">
-                  <div class="row w-87">
-                     <div class="col">
+               <div class="carousel-item active d-flex justify-content-center  mb-5">
+                  <div class="row w-87 g-4">
+                     <div class="col-lg-6 col-12">
                         <div class="border p-4 rounded">
                            <div class="d-flex justify-content-between">
                               <img src="./images/comma.png" class="d-block" alt="...">
@@ -319,17 +331,17 @@
                                  <i class="fa-regular fa-star"></i>
                               </div>
                            </div>
-                           <p class="text-muted small mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                           <p class="text-muted small mt-4">Overall I really like this class because all lectures are straight forward. A couple things I dislike about the class are that there should be more opportunities for extra credit and it would be awesome.</p>
                            <div class="d-flex align-items-center">
                               <i class="fa-solid fa-user pe-3 display-6 my-0"></i>
                               <div>
-                                 <hp>Awlad Hossain</hp>
-                                 <p class="text-muted small m-0">UI Designer</p>
+                                 <p class="m-0">Sabbir Ahmad</p>
+                                 <p class="text-muted small m-0">Graphic Designer</p>
                               </div>
                            </div>
                         </div>
                      </div>
-                     <div class="col">
+                     <div class="col-lg-6 col-12">
                         <div class="border p-4 rounded">
                            <div class="d-flex justify-content-between">
                               <img src="./images/comma.png" class="d-block" alt="...">
@@ -341,59 +353,11 @@
                                  <i class="fa-regular fa-star"></i>
                               </div>
                            </div>
-                           <p class="text-muted small mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                           <p class="text-muted small mt-4">I really enjoyed the online course. I thought it was well planned and layed out, easy for me to follow. The work load(h.w. & test)was just enough, so i could finish everything with enough time, learn about the topics and not feel over loaded and rushed.</p>
                            <div class="d-flex align-items-center">
                               <i class="fa-solid fa-user pe-3 display-6 my-0"></i>
                               <div>
-                                 <hp>Shanta Akter</hp>
-                                 <p class="text-muted small m-0">UI Designer</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item d-flex justify-content-center">
-                  <div class="row w-87">
-                     <div class="col">
-                        <div class="border p-4 rounded">
-                           <div class="d-flex justify-content-between">
-                              <img src="./images/comma.png" class="d-block" alt="...">
-                              <div class="text-warning">
-                                 <i class="fa-solid fa-star"></i>
-                                 <i class="fa-solid fa-star"></i>
-                                 <i class="fa-solid fa-star"></i>
-                                 <i class="fa-solid fa-star"></i>
-                                 <i class="fa-regular fa-star"></i>
-                              </div>
-                           </div>
-                           <p class="text-muted small mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
-                           <div class="d-flex align-items-center">
-                              <i class="fa-solid fa-user pe-3 display-6 my-0"></i>
-                              <div>
-                                 <hp>Awlad Hossain</hp>
-                                 <p class="text-muted small m-0">UI Designer</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col">
-                        <div class="border p-4 rounded">
-                           <div class="d-flex justify-content-between">
-                              <img src="./images/comma.png" class="d-block" alt="...">
-                              <div class="text-warning">
-                                 <i class="fa-solid fa-star"></i>
-                                 <i class="fa-solid fa-star"></i>
-                                 <i class="fa-solid fa-star"></i>
-                                 <i class="fa-solid fa-star"></i>
-                                 <i class="fa-regular fa-star"></i>
-                              </div>
-                           </div>
-                           <p class="text-muted small mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
-                           <div class="d-flex align-items-center">
-                              <i class="fa-solid fa-user pe-3 display-6 my-0"></i>
-                              <div>
-                                 <hp>Awlad Hossain</hp>
+                                 <p class="m-0">Shanta Akter</p>
                                  <p class="text-muted small m-0">UI Designer</p>
                               </div>
                            </div>
@@ -402,8 +366,56 @@
                   </div>
                </div>
                <div class="carousel-item d-flex justify-content-center">
-                  <div class="row w-87">
-                     <div class="col">
+                  <div class="row w-87 g-4">
+                     <div class="col-lg-6 col-12">
+                        <div class="border p-4 rounded">
+                           <div class="d-flex justify-content-between">
+                              <img src="./images/comma.png" class="d-block" alt="...">
+                              <div class="text-warning">
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                              </div>
+                           </div>
+                           <p class="text-muted small mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                           <div class="d-flex align-items-center">
+                              <i class="fa-solid fa-user pe-3 display-6 my-0"></i>
+                              <div>
+                                 <p class="m-0">Awlad Hossain</p>
+                                 <p class="text-muted small m-0">UX Designer</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-12">
+                        <div class="border p-4 rounded">
+                           <div class="d-flex justify-content-between">
+                              <img src="./images/comma.png" class="d-block" alt="...">
+                              <div class="text-warning">
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                              </div>
+                           </div>
+                           <p class="text-muted small mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                           <div class="d-flex align-items-center">
+                              <i class="fa-solid fa-user pe-3 display-6 my-0"></i>
+                              <div>
+                                 <p class="m-0">Sakib Abrar</p>
+                                 <p class="text-muted small m-0">UI Designer</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item d-flex justify-content-center">
+                  <div class="row w-87 g-4">
+                     <div class="col-lg-6 col-12">
                         <div class="border p-4 rounded">
                            <div class="d-flex justify-content-between">
                               <img src="./images/comma.png" class="d-block" alt="...">
@@ -425,7 +437,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col">
+                     <div class="col-lg-6 col-12">
                         <div class="border p-4 rounded">
                            <div class="d-flex justify-content-between">
                               <img src="./images/comma.png" class="d-block" alt="...">
@@ -464,57 +476,57 @@
       </section>
 
       <!-- FAQ Section -->
-      <section class="container mx-5 px-5 my-5">
+      <section class="container px-5 my-5">
          <h3 class="text-center pt-5 pb-3 mt-5">Frequently Asked Questions</h3>
-         <p class="text-center pb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-         <div class="d-flex align-items-center w-75 mx-auto">
+         <p class="text-center pb-4 text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+         <div class="col-lg-9 col-12 mx-auto ">
             <!-- Accordion -->            
             <div class="accordion pe-3" id="accordionExample">
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     What’s the difference between event design and event planning? 
+                        What is the difference between Flexbox and Grid layout?
                      </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                      <div class="accordion-body">
-                     Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                        <p class="text-muted">The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout</p>
                      </div>
                   </div>
                </div>
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                     How early do we need to start planning an event
+                        What is the difference between Bootstrap and Tailwind CSS?
                      </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                      <div class="accordion-body">
-                     <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                     <p class="text-muted">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness.</p>
                      </div>
                   </div>
                </div>
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     What is your refund and cancellation policy?
+                     What is CSS Box model?
                      </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                      <div class="accordion-body">
-                     <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <p class="text-muted">Every element that can be displayed on a web page is comprised of one or more rectangular boxes. CSS box model typically describes how these rectangular boxes are laid out on a web page. These boxes can have different properties and can interact with each other in different ways, but every box has a content area and optional surrounding padding, border, and margin areas.</p>
                      </div>
                   </div>
                </div>
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                     How do you keep budgets on track?
+                        What are HTML semantic tags?
                      </button>
                   </h2>
                   <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                      <div class="accordion-body">
-                     <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <p class="text-muted">The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content. </p>
                      </div>
                   </div>
                </div>
@@ -525,7 +537,7 @@
       </section>
 
       <!-- Testimonial -->
-      <section class="container mx-5 px-5 my-5">
+      <section class="container px-5 my-5 d-none d-lg-block">
          <h3 class="text-center pt-5 pb-3 mt-5 mb-4">Trusted by over 800+ companies</h3>
          <div class="d-flex justify-content-around align-items-center mb-5 pb-5">
             <img src="./images/company/company-1.png" class="h-100" alt="">
@@ -542,12 +554,12 @@
    <footer class="mt-5 py-5 d-flex flex-column align-items-center bg-dark text-white">
       <h3 class="fw-bold mb-4">Pro Edu</h3>
       <p class="fw-light">Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
-      <p class="fw-light pb-3">Privacy Ploicy  |   Terms of use</p>
+      <p class="fw-light pb-2">Privacy policy | Terms of use</p>
       <div>
-         <i class="fa-brands fa-facebook px-1"></i>
-         <i class="fa-brands fa-twitter px-1"></i>
-         <i class="fa-brands fa-linkedin px-1"></i>
-         <i class="fa-brands fa-tiktok px-1"></i>
+         <i class="fa-brands fa-facebook m-1 p-2 bg-opacity-10 bg-light rounded-circle"></i>
+         <i class="fa-brands fa-twitter m-1 p-2 bg-opacity-10 bg-light rounded-circle"></i>
+         <i class="fa-brands fa-linkedin m-1 p-2 bg-opacity-10 bg-light rounded-circle"></i>
+         <i class="fa-brands fa-tiktok m-1 p-2 bg-opacity-10 bg-light rounded-circle"></i>
       </div>
    </footer>
 
