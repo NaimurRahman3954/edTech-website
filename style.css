@@ -1,20 +1,38 @@
 /* CSS Debugging */
 *{
-   /* outline: 1px solid red; */
-   /* background-color: #ff000050; */
+  /* outline: 1px solid red; */
+  /* background-color: #ff000050; */
 }
 
+
+/* Carousel Dark Overlay */
 .dark:after {
-   content:"";
-   /* display:block; */
-   position:absolute;
-   top:0;
-   bottom:0;
-   left:0;
-   right:0;
-   background:rgba(0,0,0,0.5);
- }
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.5);
+}
+
+.w-87{
+  width: 87%;
+}
  
- .w-87{
-   width: 87%;
- }
+@media screen and (max-width: 1024px) {
+  .w-87{
+    width: 100%;
+  }
+
+  .feedback .carousel-control-prev, .feedback .carousel-control-next{
+    display: none;
+  }
+
+  /* .w-75{
+    width: 100% !important;
+  } */
+  
+}
+
